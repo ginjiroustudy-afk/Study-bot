@@ -10,7 +10,7 @@ from pathlib import Path
 # ======================
 # 設定
 # ======================
-DATA_FILE = Path("data.json")
+DATA_FILE = Path("/data/data.json")
 JST = timezone(timedelta(hours=9))
 
 SUBJECTS = ["国語", "数学", "社会", "理科", "英語", "情報", "運動", "睡眠", "仮眠", "その他"]
